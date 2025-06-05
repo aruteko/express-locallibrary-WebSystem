@@ -90,9 +90,9 @@ async function bookInstanceCreate(index, book, imprint, due_back, status) {
 async function createGenres() {
   console.log("Adding genres");
   await Promise.all([
-    genreCreate(0, "Fantasy"),
-    genreCreate(1, "Science Fiction"),
-    genreCreate(2, "French Poetry"),
+    genreCreate(0, "ファンタジー"),
+    genreCreate(1, "SF"),
+    genreCreate(2, "シラン"),
   ]);
 }
 
